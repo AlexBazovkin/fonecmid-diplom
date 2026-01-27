@@ -2,15 +2,13 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Constant.ВКМ_ИдентификаторГруппыДляОповещения.StandardCommand.Open</command>
-      <visible/>
+      <command>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Constant.ВКМ_ТокенУправленияТелеграмБотом.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Constant.ВКМ_ТаймаутСоединения.StandardCommand.Open</command>
+      <command>CommonCommand.ВКМ_ОбслуживаниеКлиентовПанельОтчетов</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -18,11 +16,15 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Report.ВКМ_АнализВыставленныхАктов.StandardCommand.Open</command>
+      <command>Constant.ВКМ_ИдентификаторГруппыДляОповещения.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Report.ВКМ_ВыработкаСпециалистов.StandardCommand.Open</command>
+      <command>Constant.ВКМ_ТаймаутСоединения.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.ВКМ_ТокенУправленияТелеграмБотом.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>
@@ -38,16 +40,6 @@
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
-      <group>ActionsPanelTools</group>
-      <commands>DataProcessor.ВКМ_КалендарьСпециалистов.StandardCommand.Open</commands>
-      <commands>DataProcessor.ВКМ_МассовоеСозданиеАктов.StandardCommand.Open</commands>
-      <commands>DataProcessor.ВКМ_ОтправкаСообщенийВТелеграм.StandardCommand.Open</commands>
-      <commands>CommonForm.ВКМ_ФормаПараметровTGБота.StandardCommand.Open</commands>
-      <commands>Constant.ВКМ_ИдентификаторГруппыДляОповещения.StandardCommand.Open</commands>
-      <commands>Constant.ВКМ_ТаймаутСоединения.StandardCommand.Open</commands>
-      <commands>Constant.ВКМ_ТокенУправленияТелеграмБотом.StandardCommand.Open</commands>
-    </orderFragments>
-    <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
     </orderFragments>
@@ -56,6 +48,16 @@
       <commands>Report.ВКМ_АнализВыставленныхАктов.StandardCommand.Open</commands>
       <commands>Report.ВКМ_ВыработкаСпециалистов.StandardCommand.Open</commands>
       <commands>CommonCommand.ВКМ_ОбслуживаниеКлиентовПанельОтчетов</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ВКМ_КалендарьСпециалистов.StandardCommand.Open</commands>
+      <commands>DataProcessor.ВКМ_МассовоеСозданиеАктов.StandardCommand.Open</commands>
+      <commands>DataProcessor.ВКМ_ОтправкаСообщенийВТелеграм.StandardCommand.Open</commands>
+      <commands>CommonForm.ВКМ_ФормаПараметровTGБота.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_ИдентификаторГруппыДляОповещения.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_ТаймаутСоединения.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_ТокенУправленияТелеграмБотом.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

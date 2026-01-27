@@ -34,7 +34,6 @@
   <content>Constant.ВКМ_НДФЛ</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Role.ВКМ_РаботаСОтчетомВыработкаСпециалистов</content>
-  <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Role.ВКМ_РаботаСОтчетомРасчетыССотрудниками</content>
   <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>

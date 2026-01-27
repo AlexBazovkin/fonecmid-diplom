@@ -2,19 +2,59 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
+      <command>Document.ВКМ_НачислениеЗаработнойПлаты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВКМ_НачислениеФиксированныхПремий.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.ВКМ_РасчетУправленческойЗарплатыПанельОтчетов</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Report.ВКМ_ВыработкаСпециалистов.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Report.ВКМ_РасчетыССотрудниками.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Report.ВКМ_РасходЗапланированныхОтпусков.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -24,21 +64,21 @@
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
-    </placementFragments>
-    <placementFragments>
-      <group>CommandGroup.ВКМ_ГрафикиРаботы</group>
-      <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
-    </placementFragments>
-    <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ВКМ_НачислениеЗаработнойПлаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированныхПремий.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.ВКМ_ГрафикиРаботы</group>
+      <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>ActionsPanelReports</group>
@@ -46,22 +86,6 @@
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
-    <orderFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>CommandGroup.ВКМ_ГрафикиРаботы</group>
-      <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
-      <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
-      <commands>CommonCommand.ВКМ_ЗаполнитьГрафикиРаботы</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>ActionsPanelTools</group>
-      <commands>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы.StandardCommand.Open</commands>
-    </orderFragments>
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ВКМ_НачислениеЗаработнойПлаты.StandardCommand.OpenList</commands>
@@ -77,13 +101,31 @@
       <commands>CalculationRegister.ВКМ_Удержания.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_ФизическиеЛица.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.ВКМ_ГрафикиРаботы</group>
+      <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
+      <commands>CommonCommand.ВКМ_ЗаполнитьГрафикиРаботы</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelReports</group>
-      <commands>Report.ВКМ_ВыработкаСпециалистов.StandardCommand.Open</commands>
       <commands>Report.ВКМ_РасходЗапланированныхОтпусков.StandardCommand.Open</commands>
       <commands>Report.ВКМ_РасчетыССотрудниками.StandardCommand.Open</commands>
       <commands>CommonCommand.ВКМ_РасчетУправленческойЗарплатыПанельОтчетов</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_МаксимальноеЧислоДнейОтпуска.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

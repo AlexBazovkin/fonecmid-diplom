@@ -26,9 +26,9 @@
   <content>Role.ВКМ_РаботаСОбработкойКалендарьСпециалистов</content>
   <content>Role.ВКМ_РаботаСОбработкойМассовоеСозданиеАктов</content>
   <content>Role.ВКМ_РаботаСОтчетомВыработкаСпециалистов</content>
-  <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Role.ВКМ_РаботаСОтчетомАнализВыставленныхАктов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>CommonCommand.ВКМ_ОбслуживаниеКлиентовПанельОтчетов</content>
   <content>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>
