@@ -17,6 +17,10 @@
 
 [4. Настройка групп доступа, подсистемы «Расчет управленческой зарплаты» и графиков работы](https://github.com/AlexBazovkin/fonecmid-diplom/blob/main/Инструкции%20и%20файлы/Пользователи,%20расчет%20зп,%20графики.md).
 
+[5. Инструкция по тестированию](https://github.com/AlexBazovkin/fonecmid-diplom/blob/main/Инструкции%20и%20файлы/Тестирование.md) и [сценарии тестирования для Vanessa](https://github.com/AlexBazovkin/fonecmid-diplom/tree/main/Сценарии%20тестирования).
+
+
+
 
 
 ------
